@@ -74,7 +74,7 @@ export const findCoupleOfPos = (arr: number[]) => {
 };
 
 export const isArrayIsSorted = (arr: number[]) => {
-  return arr === arr.sort();
+  return arr.toString() === arr.sort().toString();
 };
 
 export const insertNumAfterDivByThree = (
